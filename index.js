@@ -1,23 +1,77 @@
-// array of questions for user
-const questions = [
-
-];
-
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
-
+const inquirer = require("inquirer");
+const fs = require("fs");
+const util = require("util");
+const generateMarkdown = require("./utils/generateMarkdown.js")
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // GIVEN a command-line application that accepts user input
 // WHEN I am prompted for information about my application repository
+// array of questions for user
+const questions = (data) => {
+    return inquirer.prompt([
+        {
+            type: "message",
+            name: "create",
+            message:
+                'This documents generates ReadMe files for your projects. Click enter to proceed!',
+        },
+
+        {
+            type: "input",
+            name: "title",
+            message: "What is the title of your project?",
+        },
+        {
+            type: "input",
+            name: "username",
+            message: "What is the title of your project?",
+        },
+        {
+            type: "input",
+            name: "description",
+            message: "What is the title of your project?",
+        },
+        {
+            type: "input",
+            name: "usage",
+            message: "What is the title of your project?",
+        },
+        {
+            type: "input",
+            name: "test",
+            message: "What is the title of your project?",
+        },
+        {
+            type: "input",
+            name: "title",
+            message: "What is the title of your project?",
+        },
+    ]);
+};
+
+// function to write README file
+async function writeToFile(fileName, data) { }
+
+// function to initialize program
+// function init(response) { }
+
+const init = async () => {
+
+    try {
+        const data = await questions();
+
+        const fileName = generateMarkdown(data);
+
+        await writeFileAsync('README.md', fileName);
+
+        console.log('Successfully wrote to README.md');
+    } catch (err) {
+        console.log(err);
+    }
+};
+// function call to initialize program
+init();
+
 // THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 // WHEN I enter my project title
 // THEN this is displayed as the title of the README
