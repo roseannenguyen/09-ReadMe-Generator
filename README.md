@@ -16,11 +16,10 @@
 
 
   ## Description:
-This is a ReadMe generator that can quickly create a professional ReadMe for projects uploaded to GitHub. The ReadMe example file generated and a video walk through of the application is located in the [utils directory.](https://github.com/roseannenguyen/09-ReadMe-Generator/tree/main/utils)
+This is a ReadMe generator that can quickly create a professional ReadMe for projects uploaded to GitHub. The ReadMe example file generated and a [video walk through](https://drive.google.com/file/d/1I3Dst-5qYHae-3kACWdsvX0ES_Xc4KtP/view)) of the application is located in the [utils directory.](https://github.com/roseannenguyen/09-ReadMe-Generator/tree/main/utils)
 
 ![Below is an example of the ReadMe Generator:](./utils/readme.gif)
 
-![Full Video of Walk Through](https://drive.google.com/file/d/1I3Dst-5qYHae-3kACWdsvX0ES_Xc4KtP/view)
 
 ## User Story
 
