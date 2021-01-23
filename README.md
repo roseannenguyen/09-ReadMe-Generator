@@ -29,7 +29,11 @@ npm install inquirer
   - Shields.io for the badges.   
 
   ## Contributing:
-Roseanne nguyen| GitHub Profile @roseannenguyen
+| Name | Github Profile|
+| ------------- | ------------- |
+| Roseanne nguyen  | @roseannenguyen  |
+
+
 
   ## Test:
 No tests were installed for this project.

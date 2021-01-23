@@ -26,7 +26,9 @@ function generateMarkdown(data) {
   ${data.licenses}
 
   ## Contribution:
-  ${data.name} | GitHub Profile @${data.contributing}
+  | Name | Github Profile|
+| ------------- | ------------- |
+ | ${data.name} | GitHub Profile @${data.contributing}|
 
   ## Test:
   ${data.installation}
