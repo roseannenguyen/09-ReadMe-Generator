@@ -1,4 +1,4 @@
-# Read Me Generator
+# README Generator
 
   ![badge](https://img.shields.io/badge/license-MIT-informational)
 
@@ -12,13 +12,13 @@
   - [Questions](#questions)
 
   ## Description:
-  This is a Read Me Generator that quickly creates a read me for your projects.
+  This application creates a README file.
  
   ## Installation:
-  npm init and inquirer were installed.
+  NPM INIT and Inquirer were installed.
 
   ## Usage:
-  This was used for coding boot camp.
+  This project was created for coding boot camp course.
 
   ## License(s) Used:
   MIT
@@ -26,11 +26,12 @@
   ## Contribution:
   | Name | Github Profile|
 | ------------- | ------------- |
- | Roseanne Nguyen | GitHub Profile @roseannenguyen|
+ | Roseanne Nguyen | [roseannenguyen](https://github.com/roseannenguyen)|
 
   ## Test:
-  npm init and inquirer were installed.
+  NPM INIT and Inquirer were installed.
   
   ## Questions:
  If you have any questions about the prohect, please feel free to email: roseannenguyen@protonmail.com
-  We can also connect on Github at: roseannenguyen
+ 
+  We can also connect on Github at: roseannenguyen](https://github.com/roseannenguyen)

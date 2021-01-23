@@ -14,6 +14,8 @@
 
   ## Description:
 This is a ReadMe generator that can quickly create a professional ReadMe for projects uploaded to GitHub. The ReadMe file generated can be lcoated in the [utils directory.](https://github.com/roseannenguyen/09-ReadMe-Generator/tree/main/utils)
+
+![Below is an example of the ReadMe Generator:](./utils/readme.gif)
  
   ## Installation:
 ```text
