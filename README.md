@@ -52,7 +52,7 @@ THEN I am taken to the corresponding section of the README
   ## Installation:
 ```text
 npm init 
-[Inquirer package](https://www.npmjs.com/package/inquirer)
+npm inquirer package
 ```
 
   ## Usage:
