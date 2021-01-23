@@ -35,8 +35,8 @@ function generateMarkdown(data) {
   
   ## Questions:
  If you have any questions about the prohect, please feel free to email: ${data.email}
- 
-  We can also connect on Github at: ${data.contributing}](https://github.com/${data.contributing})
+
+  We can also connect on Github at: [${data.contributing}](https://github.com/${data.contributing})
 `;
 }
 

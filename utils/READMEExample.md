@@ -34,4 +34,4 @@
   ## Questions:
  If you have any questions about the prohect, please feel free to email: roseannenguyen@protonmail.com
  
-  We can also connect on Github at: roseannenguyen](https://github.com/roseannenguyen)
+  We can also connect on Github at: [roseannenguyen](https://github.com/roseannenguyen)
