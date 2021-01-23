@@ -16,7 +16,7 @@
 
 
   ## Description:
-This is a ReadMe generator that can quickly create a professional ReadMe for projects uploaded to GitHub. The ReadMe file generated can be located in the [utils directory.](https://github.com/roseannenguyen/09-ReadMe-Generator/tree/main/utils)
+This is a ReadMe generator that can quickly create a professional ReadMe for projects uploaded to GitHub. The ReadMe example file generated and a video walk through of the application is located in the [utils directory.](https://github.com/roseannenguyen/09-ReadMe-Generator/tree/main/utils)
 
 ![Below is an example of the ReadMe Generator:](./utils/readme.gif)
 
@@ -51,7 +51,7 @@ THEN I am taken to the corresponding section of the README
   ## Installation:
 ```text
 npm init 
-npm install inquirer
+[Inquirer package](https://www.npmjs.com/package/inquirer)
 ```
 
   ## Usage:
