@@ -1,7 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const globalModules = require('global-modules');
 const generateMarkdown = require("./utils/generateMarkdown.js")
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -27,6 +26,11 @@ const questions = (data) => {
             type: "input",
             name: "contributing",
             message: "What's your GitHub username?",
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "What's the best email for someone to reach out to you?",
         },
         {
             type: "input",
@@ -85,7 +89,7 @@ const init = async () => {
 
         const fileName = generateMarkdown(data);
 
-        await writeFileAsync('README.md', fileName);
+        await writeFileAsync('READMEExample.md', fileName);
 
         console.log('Successfully wrote to README.md');
     } catch (err) {

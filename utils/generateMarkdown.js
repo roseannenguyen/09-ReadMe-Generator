@@ -19,19 +19,19 @@ function generateMarkdown(data) {
   ## Installation:
   ${data.installation}
 
-  ## Installation:
+  ## Usage:
   ${data.usage}
 
   ## License(s) Used:
-  ${data.license}
+  ${data.licenses}
 
-  ## Contributing:
-  ${data.name} | GitHub Profile@ ${data.contributing}
+  ## Contribution:
+  ${data.name} | GitHub Profile @${data.contributing}
 
   ## Test:
   ${data.installation}
   
-  ## Have questions?
+  ## Questions:
  If you have any questions about the prohect, please feel free to email: ${data.email}
   We can also connect on Github at: ${data.contributing}
 `;
