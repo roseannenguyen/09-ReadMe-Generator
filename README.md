@@ -20,6 +20,8 @@ This is a ReadMe generator that can quickly create a professional ReadMe for pro
 
 ![Below is an example of the ReadMe Generator:](./utils/readme.gif)
 
+![Full Video of Walk Through](https://drive.google.com/file/d/1I3Dst-5qYHae-3kACWdsvX0ES_Xc4KtP/view)
+
 ## User Story
 
 ```md
