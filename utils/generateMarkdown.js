@@ -28,14 +28,15 @@ function generateMarkdown(data) {
   ## Contribution:
   | Name | Github Profile|
 | ------------- | ------------- |
- | ${data.name} | GitHub Profile @${data.contributing}|
+ | ${data.name} | [${data.contributing}](https://github.com/${data.contributing})|
 
   ## Test:
   ${data.installation}
   
   ## Questions:
  If you have any questions about the prohect, please feel free to email: ${data.email}
-  We can also connect on Github at: ${data.contributing}
+ 
+  We can also connect on Github at: ${data.contributing}](https://github.com/${data.contributing})
 `;
 }
 

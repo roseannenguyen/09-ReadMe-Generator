@@ -31,7 +31,7 @@ npm install inquirer
   ## Contributing:
 | Name | Github Profile|
 | ------------- | ------------- |
-| Roseanne nguyen  | @roseannenguyen  |
+| Roseanne nguyen  | [roseannenguyen](https://github.com/roseannenguyen)|
 
 
 
@@ -40,4 +40,5 @@ No tests were installed for this project.
   
   ## Questions:
  If you have any questions about the prohect, please feel free to email: roseannenguyen@protonmail.com
-  We can also connect on Github at: roseannenguyen
+
+  We can also connect on Github at: [roseannenguyen](https://github.com/roseannenguyen).
