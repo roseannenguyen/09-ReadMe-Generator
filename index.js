@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+const globalModules = require('global-modules');
 const generateMarkdown = require("./utils/generateMarkdown.js")
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -14,46 +15,68 @@ const questions = (data) => {
             name: "create",
             message:
                 'This documents generates ReadMe files for your projects. Click enter to proceed!',
+                
+        },
+        {
+            type: "input",
+            name: "name",
+            message: "What's your name?",
         },
 
         {
             type: "input",
-            name: "title",
-            message: "What is the title of your project?",
+            name: "contributing",
+            message: "What's your GitHub username?",
         },
         {
             type: "input",
-            name: "username",
+            name: "title",
             message: "What is the title of your project?",
         },
         {
             type: "input",
             name: "description",
-            message: "What is the title of your project?",
+            message: "Write a brief description about your project.",
+        },
+        {
+            type: "input",
+            name: "installation",
+            message: "If applicable, describe what was installed in the project.",
         },
         {
             type: "input",
             name: "usage",
-            message: "What is the title of your project?",
+            message: "What is this project used for?",
         },
         {
             type: "input",
             name: "test",
-            message: "What is the title of your project?",
+            message: "Is there a test included in the project?",
         },
         {
-            type: "input",
-            name: "title",
-            message: "What is the title of your project?",
+            type: "list",
+            name: "licenses",
+            message: "Choose the following licenses that best fits your project:",
+            choices: [
+                "MIT",
+                "GNU",
+                "Apache",
+                "GPL",
+                "BSD",
+                "Eclipse",
+                "Academic",
+                "ISC",
+                "Creative Commons",
+                "Mozilla",
+                "Open Data Commons",
+                "Pearl",
+                "SIL",
+                "Not listed",
+                "N/A",
+            ]
         },
     ]);
 };
-
-// function to write README file
-async function writeToFile(fileName, data) { }
-
-// function to initialize program
-// function init(response) { }
 
 const init = async () => {
 
