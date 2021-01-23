@@ -16,8 +16,8 @@
 This is a ReadMe generator that can quickly create a professional ReadMe for projects uploaded to GitHub. The ReadMe file generated can be lcoated in the [utils directory.](https://github.com/roseannenguyen/09-ReadMe-Generator/tree/main/utils)
  
   ## Installation:
-```npm init 
-npm install inquirer```
+npm init 
+npm install inquirer
 
 
   ## Usage:
