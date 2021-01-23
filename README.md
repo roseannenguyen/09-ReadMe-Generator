@@ -13,7 +13,7 @@
   - [Questions](#questions)
 
   ## Description:
-This is a ReadMe generator that can quickly create a professional ReadMe for projects uploaded to GitHub. The ReadMe file generated can be lcoated in the [utils directory.](https://github.com/roseannenguyen/09-ReadMe-Generator/tree/main/utils)
+This is a ReadMe generator that can quickly create a professional ReadMe for projects uploaded to GitHub. The ReadMe file generated can be located in the [utils directory.](https://github.com/roseannenguyen/09-ReadMe-Generator/tree/main/utils)
 
 ![Below is an example of the ReadMe Generator:](./utils/readme.gif)
  
@@ -41,6 +41,6 @@ npm install inquirer
 No tests were installed for this project.
   
   ## Questions:
- If you have any questions about the prohect, please feel free to email: roseannenguyen@protonmail.com
+ If you have any questions about the project, please feel free to email: roseannenguyen@protonmail.com
 
   We can also connect on Github at: [roseannenguyen](https://github.com/roseannenguyen).
