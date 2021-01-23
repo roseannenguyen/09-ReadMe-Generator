@@ -1,7 +1,7 @@
 
   ![badge](https://img.shields.io/badge/license-MIT-informational)   ![badge](https://img.shields.io/github/languages/top/roseannenguyen/09-ReadMe-Generator) ![badge]( https://img.shields.io/github/last-commit/roseannenguyen/09-ReadMe-Generator)
 
-#Read Me Generator
+# Read Me Generator
 
   ## Table of Contents
   - [Description](#description)
@@ -16,9 +16,10 @@
 This is a ReadMe generator that can quickly create a professional ReadMe for projects uploaded to GitHub. The ReadMe file generated can be lcoated in the [utils directory.](https://github.com/roseannenguyen/09-ReadMe-Generator/tree/main/utils)
  
   ## Installation:
+```text
 npm init 
 npm install inquirer
-
+```
 
   ## Usage:
  This was used for learning purposes for the University of Arizona's Coding Boot Camp course. 
