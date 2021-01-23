@@ -20,7 +20,7 @@ This is a ReadMe generator that can quickly create a professional ReadMe for pro
 
 ![Below is an example of the ReadMe Generator:](./utils/readme.gif)
 
-
+<a name="userstory"></a>
 ## User Story
 
 ```md
@@ -28,7 +28,7 @@ AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
-
+<a name="acceptancecriteria"></a>
 ## Acceptance Criteria
 
 ```md
